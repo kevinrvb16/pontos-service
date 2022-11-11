@@ -8,7 +8,7 @@ const Conta = require('./model/conta')
 
 const MongoClient = require('mongodb').MongoClient;
 const uri = 'mongodb://localhost:27017/';
-const database_name = 'MinhaLojaDB';
+const database_name = 'MinhaLOjaDB';
 const collection_name= 'Fidelidade'
 var db;
 MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true }, (error, client) => {
